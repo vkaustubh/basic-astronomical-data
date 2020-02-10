@@ -1,0 +1,88 @@
+
+May 27 16:25: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+             bias1.fits
+             bias2.fits
+             bias3.fits
+             bias4.fits
+             bias5.fits
+
+  Output image = Zero, ncombine = 5
+
+May 27 16:25: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+             bias1.fits
+             bias2.fits
+             bias3.fits
+             bias4.fits
+             bias5.fits
+
+  Output image = Zero, ncombine = 5
+
+May 27 16:27: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+             bias1.fits
+             bias2.fits
+
+  Output image = Zero, ncombine = 2
+
+May 27 17:40: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = sigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+                Images 
+             bias1.fits
+             bias2.fits
+             bias3.fits
+
+  Output image = Zero, ncombine = 3
+flat_v1.fits: May 27 17:54 Trim data section is [1:1340,1:1300]
+flat_v1.fits: May 27 17:54 Trim data section is [1:1340,1:1300]
+flat_v1.fits: May 27 17:55 Trim data section is [1:1340,1:1300]
+flat_v1.fits: May 27 17:55 Trim data section is [1:1340,1:1300]
+flat_v1.fits: May 27 17:56 Trim data section is [1:1340,1:1300]
+
+May 27 17:57: IMCOMBINE
+  combine = average, scale = mode, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 1.
+                Images     Mode  Scale
+           flat_v1.fits  23597.  1.557
+           flat_v2.fits  29434.  1.248
+           flat_v3.fits  35310.  1.041
+           flat_v4.fits  42838.  0.858
+           flat_v5.fits  52524.  0.700
+
+  Output image = Flat, ncombine = 5
+
+May 27 18:04: IMCOMBINE
+  combine = average, scale = mode, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 1.
+                Images     Mode  Scale
+           flat_v1.fits  23597.  1.557
+           flat_v2.fits  29434.  1.248
+           flat_v3.fits  35310.  1.041
+           flat_v4.fits  42838.  0.858
+           flat_v5.fits  52524.  0.700
+
+  Output image = Flat, ncombine = 5
+m67v1.fits: May 27 18:10 Zero level correction image is bias1.fits
+flat_v1.fits: May 27 18:10 Zero level correction image is bias1.fits
+m67v1.fits: May 27 18:10 Flat field image is flat_v1.fits with scale=23346.84
+m67v2.fits: May 27 18:10 Zero level correction image is bias1.fits
+m67v2.fits: May 27 18:10 Flat field image is flat_v1.fits with scale=23346.84
+m67v3.fits: May 27 18:10 Zero level correction image is bias1.fits
+m67v3.fits: May 27 18:10 Flat field image is flat_v1.fits with scale=23346.84
